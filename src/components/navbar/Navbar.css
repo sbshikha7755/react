@@ -1,0 +1,115 @@
+.navbar-wapper{
+   background-color: skyblue;
+   box-sizing: border-box;
+   position: sticky;
+   z-index: 1000;
+   top: 0;
+}
+.navbar{
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+}
+.linkk{
+    gap: 30px;
+    margin-right: 20px;
+    display: flex;
+    font-size:larger;
+}
+.linkk a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+.linkk a::after{
+    background-color: rgb(13, 13, 14);
+    content: " ";
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    transition: 0.3s;
+    bottom: 1px;
+}
+.linkk a:hover::after{
+    width: 100%;
+}
+.link a:hover{
+    color: black;
+}
+/* home.................... */
+.main-box{
+   background-color:whitesmoke;
+   width: 100%;
+   height: auto;
+   display: flex;
+   gap: -10px;
+}
+.box1{
+    width:600px ;
+    height: 400px;
+    border: 2px solid;
+    background-color: aquamarine;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 15px 0px 0px 15px;
+}
+.box1 h1{
+    margin-left: 20px;
+    font-size: 40px;
+    color: black;
+}
+.box1 p{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.box1 button{
+    width: 90px;
+    height: 30px;
+    border: 2px solid grey;
+    background-color: grey;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+.box2{
+     width:600px ;
+    height: 400px;
+    border: 2px solid;
+    background-color: aquamarine;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 0px 15px 15px 0px;
+}
+/* resipie......... */
+
+.recipi{
+     width: 100%;
+    height: auto;
+    background-color: cadetblue;
+}
+.main-card{
+   display: flex;
+   margin-top: 20px;
+   margin-left: 20px;
+
+}
+.big-card{
+    width: 200px;
+    height: 150px;
+    border: 1px solid;
+    border:none;
+    background-color: crimson;
+    /* margin-top: 20px;
+    margin-left: 20px; */
+
+}
+.cards{
+    margin-top: 20px;
+    margin-left: 20px;
+}
