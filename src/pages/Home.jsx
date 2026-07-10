@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Pizza from "../assets/pizza.jpg";
+import  "./Home.css"
 
 
 function Home () {
@@ -14,7 +15,7 @@ function Home () {
             </div>
             <div className='box2'>
                 <img src={Pizza} alt="pizza" />
-                <h1>image</h1>
+                <h1>This is testy pizza</h1>
             </div>
         </div>
         
